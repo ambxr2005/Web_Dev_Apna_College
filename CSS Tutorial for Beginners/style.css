@@ -1,0 +1,34 @@
+p {
+    color: burlywood;
+}
+
+button {
+    /* Color Property: Used to set the color of foreground. */
+    color: brown;
+    background-color: greenyellow;
+}
+
+body {
+    /* Background Color Property: Used to set the color of background. */
+    background-color: blanchedalmond; 
+}
+
+/* 
+    Color Systems:
+        1. RGB -->
+            a) color: rgb(255,0,0);
+            b) color: rgb(0,255,0);
+        2. HEX -->
+            a) color: #bf2273;
+            b) color: #4287f5;
+
+    *refer coolors.co for color palettes.
+*/
+
+/* 
+    Selectors:-
+        1. Universal Selector --> * {}
+        2. Element Selector --> h1 {}
+        3. ID Selector --> #myId {}
+        4. Class Selector --> .myClass {}   
+*/
