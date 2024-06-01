@@ -1,0 +1,45 @@
+/* 
+    Box Model in CSS:-
+        a) Height
+            By default, it sets the content area height of the element.
+        b) Width
+            By default, it sets the content area width of the element.
+        c) Border
+            i)  Used to set an element's border.
+            ii) Also used to round the corners of an element's outer border edge.
+        d) Padding
+            It is used to set the space(s) between the content and the border.
+        e) Margin
+            It is used to set the space between the elements or the borders of the elements.
+*/
+
+div {
+    color: red;
+    background-color: pink;
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    width: 200px;
+    text-align: center;
+    height: 80px;
+    background-color: aquamarine;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 6%;
+    border-color: yellowgreen;
+    padding-top: 5px;
+}
+
+p {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+button {
+    margin: 25px;
+}
+
