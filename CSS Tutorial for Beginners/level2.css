@@ -13,7 +13,7 @@
             It is used to set the space between the elements or the borders of the elements.
 */
 
-div {
+.div {
     color: red;
     background-color: pink;
     height: 50px;
@@ -43,3 +43,43 @@ button {
     margin: 25px;
 }
 
+/* 
+    Display Properties:-
+        display: inline/block/inline-block/none
+            i)   inline: Takes only the space required by the element. (no margin/padding)
+            ii)  block: Takes full space available in width.
+            iii) inline-block: Similar to inline but we can set margin & padding.
+            iv)  none: To remove element from document flow.
+*/
+
+.apple {
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 25px;
+    padding: 25px;
+    /* display: inline;  --> shows errors in preview */
+    display: inline-block;
+}
+
+/* 
+    Visibility: When visibility is set to none, space for the element is reserved. But for display set to none, no space is reserved or blocked for the element.
+*/
+
+#box1 {
+    background-color: blue;
+}
+#box2 {
+    background-color: green;
+    visibility: hidden;
+}
+#box3 {
+    background-color: red;
+}
+
+/* Alpha Channel: opacity (0 - 1) */
+
+#box1 {
+    background-color: rgba(0, 0, 255, 0.4);
+}
