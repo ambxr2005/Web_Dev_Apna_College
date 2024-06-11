@@ -53,3 +53,30 @@
     position: sticky;
     top: 20px;
 }
+
+/* Date: 02/06/2024 */
+
+/* 
+    z-index:-
+        i) It decides the stack level of elements.
+        ii) Overlapping elements with larger z-index cover those with a smaller one.
+            z-index: auto(0)
+            z-index: 1/2/3...
+            z-index: -1/-2/-3...
+*/
+
+#boxp3 {
+    z-index: 1;
+}
+
+#boxp4 {
+    z-index: -1;
+}
+
+/* 
+    1.  Background Image: Used to set an image as background.
+        background-image: url("image.jpg");
+    2.  Background Size: Used to set the visibility/ area covering of the image.
+        background-size: cover/contain/auto
+    3.  Background-repeat: Used to set either the photo should repeat or not.
+*/

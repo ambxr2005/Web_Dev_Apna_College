@@ -1,0 +1,19 @@
+.loader {
+    width: 75px;
+    height: 75px;
+    background-color: #1a535c;
+    border-radius: 50%;
+    border: 5px solid #4ecdc4;
+    border-top: 5px solid #ff6b6b;
+    animation: spin 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

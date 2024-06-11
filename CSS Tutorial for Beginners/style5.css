@@ -1,0 +1,13 @@
+div {
+    height: 300px;
+    width: 250px;
+    background-image: url("nature_love.jpg");
+    position: fixed;
+    right: 0px;
+    background-size: cover;
+    z-index: 1;
+}
+
+p {
+    z-index: -1;
+}

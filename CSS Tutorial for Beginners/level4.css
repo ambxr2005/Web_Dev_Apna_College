@@ -1,0 +1,91 @@
+* {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+/* 
+
+*/
+
+#container {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#container1 {
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+#box1 {
+    background-color: aqua;
+}
+#box2 {
+    background-color: pink;
+}
+#box3 {
+    background-color: darkkhaki;
+}
+#box4 {
+    background-color: red;
+}
+#box5 {
+    background-color: blueviolet;
+}
+
+
+#box11 {
+    background-color: aqua;
+    flex-shrink: 2;
+}
+#box21 {
+    background-color: pink;
+}
+#box31 {
+    background-color: darkkhaki;
+    flex-shrink: 3;
+}
+#box41 {
+    background-color: red;
+}
+#box51 {
+    background-color: blueviolet;
+}
+
+/* Media Queries helps to create a responsive website. */
+
+.b {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+}
+@media (width: 600px) {
+    .b {
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px) {
+    .b {
+        background-color: green;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .b {
+        background-color: blueviolet;
+    }
+}
